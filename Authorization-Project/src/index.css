@@ -1,0 +1,111 @@
+html,
+body {
+  margin: 0;
+  height: 100%;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0 auto;
+  padding: 25px;
+  max-width: 450px;
+  min-width: 450px;
+  background-color: #749987;
+  text-align: center;
+}
+
+
+.heading {
+  text-align: center;
+  font-size: 1.5em;
+  color: #255e5e;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  position: relative;
+  background-color: #90c4ab;
+  height: 250px;
+  padding: 25px 25px;
+  margin: 25px 0;
+  box-shadow: 0 2px 5px rgb(239, 248, 245);
+  overflow: hidden;
+
+}
+
+.top {
+  display: flex;
+  height: 100px;
+  width: 100%;
+  background-color: #3a5f4e;
+  position: absolute;
+  top: 0;
+  left: 0;
+
+}
+
+.name {
+  display: flex;
+  flex: 1;
+  color: rgb(14, 7, 7);
+  font-size: 2em;
+  margin: 10% 20px 0;
+}
+
+.circle-img {
+  margin: 30px 20px 0 0;
+  border-radius: 150px;
+  border: 5px solid rgb(25, 87, 71);
+  width: 150px;
+  height: 150px;
+  box-shadow: 0 2px 5px #0c4261;
+}
+
+.bottom {
+  text-align: start;
+}
+
+.info {
+  margin: 20px 0;
+  color: #234936;
+}
+
+.form-control {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  text-align: center;
+}
+
+.input {
+  width: 250px;
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 16px;
+  background-color: #dae0e6;
+  border: 1px solid #072b26;
+}
+
+button {
+  background-color: #1e6656;
+  color: rgb(247, 241, 241);
+  width: 150px;
+  border-radius: 8px;
+  padding: 10px;
+  border: none;
+  font-size: 16px;
+  font-family: 'Segoe UI', sans-serif;
+  box-shadow: 0 2px 5px rgb(63, 85, 156);
+  cursor: pointer;
+}
+
+button:hover{
+  background-color: #b7d143
+}
+
