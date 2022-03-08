@@ -4,7 +4,7 @@ body {
     padding: 25px;
     max-width: 400px;
     min-width: 400px;
-    background-color: #dfe6e9;
+    background-color: #184c50;
     text-align: center;
   }
   
@@ -19,9 +19,9 @@ body {
     border-radius: 25px;
     position: relative;
     padding: 25px 15px;
-    background-color: #81ecec;
+    background-color: #518386;
     margin: 50px 0;
     height: 200px;
-    box-shadow: 0 2px 5px #ccc;
+    box-shadow: 0 2px 5px rgb(214, 229, 243);
     text-align: center;
   }
